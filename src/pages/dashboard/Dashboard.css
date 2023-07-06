@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    padding: 15px 40px;
+    color: #000;
+    font-size: 26px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container_pet-select{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    margin: 20px 10px;
+}
+
+.pet-select{
+    width: 40%;
+    padding: 15px;
+}
+
+.pet-select1{
+    width: 40%;
+    padding: 15px;
+}
+
+.container-one{
+    display: flex;
+    gap: 35%;
+    padding: 20px 0px;
+}
+.container-one, p{
+    color:  #686868;
+    font-size: 12px;
+    font-family: Avenir;
+    font-style: normal;
+    line-height: normal;
+}
+
+.section-one{
+    display: flex;
+    width: 95%;
+    padding: 20px 20px 20px 20px;
+    margin: 0px 10px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid #D6D6D6;
+}
+
+
+.btn-one{
+    width: 50px;
+    height: 30px;
+    background-color:  rgba(78, 89, 255, 1);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.section-one, p{
+    color: #000;
+}
+
+.section-one:hover{
+    background-color: #f9f7f7;
+    border: 1px solid rgba(78, 89, 255, 1);
+}
+
+
+.section-two{
+    display: flex;
+    width: 95%;
+    padding: 20px;
+    margin: 20px 10px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0%;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid #D6D6D6;
+}
+
+.btn-two{
+    width: 50px;
+    height: 30px;
+    background-color:  rgba(78, 89, 255, 1);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer
+}
+
+.section-two, p{
+    color: #000;
+}
+
+.section-two:hover{
+    background-color: #f9f7f7;
+    border: 1px solid rgba(78, 89, 255, 1);
+}
+
+.section-three{
+    display: flex;
+    width: 95%;
+    padding: 20px;
+    margin: 0px 10px;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid #D6D6D6;
+}
+
+.btn-three{
+    width: 50px;
+    height: 30px;
+    background-color:  rgba(78, 89, 255, 1);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer
+}
+
+.section-three, p{
+    color: #000;
+}
+
+.section-three:hover{
+    background-color: #f9f7f7;
+    border: 1px solid rgba(78, 89, 255, 1);
+}
+
+.section-four{
+    display: flex;
+    width: 95%;
+    padding: 20px;
+    margin: 20px 10px;
+    align-items: center;
+    justify-content: space-between;
+    align-self: stretch;
+    border-radius: 10px;
+    border: 1px solid #D6D6D6;
+}
+
+.btn-four{
+    width: 50px;
+    height: 30px;
+    background-color:  rgba(78, 89, 255, 1);
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer
+}
+
+.section-four, p{
+    color: #000;
+}
+
+.section-four:hover{
+    background-color: #f9f7f7;
+    border: 1px solid rgba(78, 89, 255, 1);
+}
+
+@media  (max-width:667px){
+
+    .header{
+        background-color: #f9f7f7;
+    }
+
+    .logo{
+        width: 90px;
+    }
+
+    .head{
+        padding: 0px 20px 35px 20px;
+        color: #000;
+        font-size: 16px;
+        font-family: Avenir;
+        font-style: normal;
+        font-weight: 10px;
+        line-height: normal;
+    }
+
+    .container_pet-select{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10%;
+        margin: 20px 40px;
+    }
+
+    .pet-select{
+        width: 95%;
+        padding: 10px;
+        gap: 10%;
+        margin-bottom: 20px;
+    }
+    .pet-select1{
+        width: 95%;
+        padding: 10px;
+    }
+
+    .container-one{
+        display: flex;
+        gap: 11%;
+        padding: 20px 40px;
+    }
+
+    .section-one{
+        display: flex;
+        width: 95%;
+        gap: 0%;
+        align-items: center;
+        align-self: stretch;
+        border-radius: 10px;
+        border: 1px solid #D6D6D6;
+    }
+
+    .section-two{
+        display: flex;
+        width: 95%;
+        padding: 20px;
+        margin: 20px 10px;
+        align-items: center;
+        gap: 10%;
+        align-self: stretch;
+        border-radius: 10px;
+        border: 1px solid #D6D6D6;
+    }
+
+    .section-three{
+        display: flex;
+        width: 95%;
+        padding: 20px;
+        margin: 0px 10px;
+        align-items: center;
+        gap: 20%;
+        align-self: stretch;
+        border-radius: 10px;
+        border: 1px solid #D6D6D6;
+    }
+
+    .section-four{
+        display: flex;
+        width: 95%;
+        padding: 20px;
+        margin: 20px 10px;
+        align-items: center;
+        gap: 17%;
+        align-self: stretch;
+        border-radius: 10px;
+        border: 1px solid #D6D6D6;
+    }
+}
+
